@@ -11,4 +11,9 @@ public class TestNG {
         keywordEngine.startExecution("login");
 
     }
+    @Test
+    public void signUpTest() {
+        keywordEngine = new KeywordEngine();
+        keywordEngine.startExecution("signUp");
+    }
 }
